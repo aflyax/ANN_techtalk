@@ -1,5 +1,6 @@
 echo "please enter your VM password:"
 scp -r ch1data02.uptake.com:/home/common/ANN_talk_vision/*.csv .
+scp -r ch1data02.uptake.com:/home/common/ANN_talk_vision/matplotlibrc ~/.matplotlib
 
 # for py 2.7:
 
@@ -23,3 +24,5 @@ sudo pip install git+https://github.com/dnouri/nolearn.git@master#egg=nolearn==0
 sudo pip install seaborn
 sudo pip install pandas
 sudo pip install nolearn
+
+jupyter notebook
