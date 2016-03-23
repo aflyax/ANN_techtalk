@@ -1,3 +1,5 @@
+scp -r ch1data02.uptake.com:/home/common/ANN_talk_vision/*.csv .
+
 # for py 2.7:
 
 pip install -r https://raw.githubusercontent.com/dnouri/nolearn/master/requirements.txt
