@@ -1,3 +1,4 @@
+echo "please enter your VM password:"
 scp -r ch1data02.uptake.com:/home/common/ANN_talk_vision/*.csv .
 
 # for py 2.7:
